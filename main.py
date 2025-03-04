@@ -25,7 +25,7 @@ def flash_green():
     global error_message  # Use the global variable to store the error message
     error_message=""
     led_green.value(1)  # Turn green LED on
-    time.sleep(.1)
+    time.sleep(.2)
     led_green.value(0)  # Turn green LED off
     
 def flash_red(err_message):
